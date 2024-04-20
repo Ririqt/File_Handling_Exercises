@@ -12,4 +12,5 @@ with open("even_numbers.txt", "w") as even_file:
 
 with open("odd_numbers.txt", "w") as odd_file:
     for num in odd_numbers:
+        odd_file.write(str(num) + "\n")
         
