@@ -9,3 +9,5 @@ for data in datas:
     general_weighted_average = float(general_weighted_average)
 
     if general_weighted_average <= highest_general_weighted_average:
+        highest_general_weighted_average = general_weighted_average
+        
