@@ -11,3 +11,5 @@ for data in datas:
     if general_weighted_average <= highest_general_weighted_average:
         highest_general_weighted_average = general_weighted_average
         name_student = name
+
+print(f"The highest GWA is {highest_general_weighted_average} which is student {name_student}.")
