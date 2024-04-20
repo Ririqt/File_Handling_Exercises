@@ -4,4 +4,3 @@ with open("numbers.txt", "r") as file:
 numbers = [int(num) for num in numbers]
 
 even_numbers = [num for num in numbers if num % 2 == 0]
-odd_numbers = [num for num in numbers if num % 2 != 0]
