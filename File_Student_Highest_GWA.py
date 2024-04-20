@@ -10,4 +10,4 @@ for data in datas:
 
     if general_weighted_average <= highest_general_weighted_average:
         highest_general_weighted_average = general_weighted_average
-        
+        name_student = name
