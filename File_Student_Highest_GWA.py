@@ -6,4 +6,4 @@ name_student = ''
 
 for data in datas:
     name, general_weighted_average = data.strip().split(',')
-    
+    general_weighted_average = float(general_weighted_average)
