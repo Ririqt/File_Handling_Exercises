@@ -9,3 +9,5 @@ odd_numbers = [num for num in numbers if num % 2 != 0]
 with open("even_numbers.txt", "w") as even_file:
     for num in even_numbers:
         even_file.write(str(num) + "\n")
+
+with open("odd_numbers.txt", "w") as odd_file:
