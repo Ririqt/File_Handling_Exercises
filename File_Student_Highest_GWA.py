@@ -17,4 +17,4 @@ for data in datas:
         name_student = name
 
 # Displaying the Student who got the highest GWA
-print(f"The highest GWA is '{highest_general_weighted_average}' which is student '{name_student}'.")
+print(f"The highest GWA is '{highest_general_weighted_average}' which is student '{name_student}'!")
