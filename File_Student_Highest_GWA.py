@@ -1,4 +1,4 @@
-with open("student_gwa.txt","r") as file:
+with open("students_gwa.txt","r") as file:
     datas = file.readlines()
 
 highest_general_weighted_average = float('inf')
@@ -12,4 +12,4 @@ for data in datas:
         highest_general_weighted_average = general_weighted_average
         name_student = name
 
-print(f"The highest GWA is {highest_general_weighted_average} which is student {name_student}.")
+print(f"The highest GWA is '{highest_general_weighted_average}' which is student '{name_student}'.")
