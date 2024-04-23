@@ -9,4 +9,4 @@ odd_cubes = [number ** 3 for number in odd_integers]
 
 with open('double.txt', 'w') as file:
     for square in even_squares:
-        
+        file.write(f"{square}\n")
