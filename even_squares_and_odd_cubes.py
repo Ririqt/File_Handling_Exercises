@@ -14,3 +14,5 @@ with open("double.txt", "w") as file:
 with open("triple.txt", "w") as file:
     for cube in odd_cubes:
         file.write(f"{cube}\n")
+
+print("The file of Even Numbers in 'double.txt' and Odd Numbers in 'triple.txt' were successfully created.")
