@@ -7,4 +7,5 @@ with open("mylife.txt","w") as file:
 
         if more_lines.lower() != 'y':
             break
-            
+
+print("The text has written into the file of 'mylife.txt'.")
