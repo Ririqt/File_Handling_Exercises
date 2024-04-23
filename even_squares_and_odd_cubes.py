@@ -7,6 +7,9 @@ odd_integers = [number for number in integers if number % 2 != 0]
 even_squares = [number ** 2 for number in even_integers]
 odd_cubes = [number ** 3 for number in odd_integers]
 
-with open('double.txt', 'w') as file:
+with open("double.txt", "w") as file:
     for square in even_squares:
         file.write(f"{square}\n")
+
+with open("triple.txt", "w") as file:
+    
