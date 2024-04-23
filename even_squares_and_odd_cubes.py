@@ -12,4 +12,4 @@ with open("double.txt", "w") as file:
         file.write(f"{square}\n")
 
 with open("triple.txt", "w") as file:
-    
+    for cube in odd_cubes:
